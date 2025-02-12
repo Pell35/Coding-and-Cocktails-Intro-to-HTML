@@ -2,21 +2,17 @@ img{
   width: 120px;
   height: 120px;
 }
-nav{
+a:hover{
+  background-color: #656cb1;
+}
+nav, footer{
   background-color: #8a92dd;
 }
-footer{
-  background-color: #8a92dd;
-}
-h1 {
+
+h1, h2, h3, h4, h5, h6 {
   color: #2D336B;
 }
-h2 {
-  color: #7886C7;
-}
+
 body {
   background-color: #FFF2F2;
-}
-.small-plates{
-  background-color: #A9B5DF;
 }
