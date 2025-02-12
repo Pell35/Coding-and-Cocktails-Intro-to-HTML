@@ -2,17 +2,32 @@ img{
   width: 120px;
   height: 120px;
 }
-a:hover{
-  background-color: #656cb1;
+.small-plates{
+  background-color: #A9B5DF;
 }
-nav, footer{
-  background-color: #8a92dd;
+.small-plates li{
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
+.small-plates li:first-child {
+  margin-top: 0;
 
-h1, h2, h3, h4, h5, h6 {
-  color: #2D336B;
 }
-
-body {
+ nav a:hover{
+ background-color: #656cb1;
+ }
+ nav, footer{
+   background-color: #8a92dd;
+ }
+  
+ h1, h2, h3, h4, h5, h6 {
+   color: #2D336B;
+ }
+  
+ body {
   background-color: #FFF2F2;
-}
+ }
+  ul {
+   list-style-type: none;
+ }
